@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    text-decoration: none;
+    color: #000000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+  }
+  
+  *{
+    scroll-behavior: smooth;
+  }
+  
+  body a {
+    text-decoration: none;
+  }
+  
+
+  .navbar,
+  .navbar-expand-lg {
+    display: flex !important;
+    justify-content: space-between !important;
+    background-color: #fff !important;
+  }
+  
+  .navbar-nav .nav-item .active {
+    color: #ff0000;
+  }
+  
+  .navbar-nav,
+  .nav-item,
+  .nav-link {
+    color: #0db2ff !important;
+    font-weight: 700;
+  }
+  
+.navbar-nav,
+  ul,
+  li,
+  a:hover {
+    color: #0000ff !important;
+    transition: 1.3s;
+  }
+  
+.text-logo a{
+    color: #000000 !important;
+    font-weight: 700;
+  }
+
+.Dropdown {
+  position: relative !important;
+  display: inline-block !important;
+}
+
+.dropdown-content {
+  display: none !important;
+  position: absolute !important;
+  border-radius: 8px;
+  background-color: #fff !important;
+  min-width: 160px !important;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5) !important;
+  z-index: 1 !important;
+}
+
+.dropdown-content a {
+  color: #000000;
+  padding: 12px 16px !important;
+  display: block !important;
+}
+
+.Dropdown:hover .dropdown-content {
+  display:block !important;
+}
+
+
+  /* hero page */
+  .hero {
+    background: rgba(0, 0, 0, 0.5) url('.//assets/images/senior-min.webp');
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+  }
+
+  .hero-head {
+    margin-top: 30vh;
+    font-size: 50px;
+    color: #0db2ff;
+    -webkit-text-stroke: 20px solid blue;
+    font-weight: 750;
+    /* text-shadow: 7px 6px 10px   #fff; */
+  }
+
+  .speech-div {
+    margin-top: 20px;
+  }
+
+  .health-speech {
+    font-size: 16px;
+  }
+
+  .card {
+    width: 18rem;
+    border: none !important;
+    position: relative;
+    margin-bottom: 9px;
+  }
+
+  .card::before, .card::after {
+      z-index: -1;
+      position: absolute;
+      content: "";
+      bottom: 15px;
+      left: 10px;
+      width: 50%;
+      top: 80%;
+      max-width:300px;
+      background: #777;
+      -webkit-box-shadow: 0 15px 10px #777;
+      -moz-box-shadow: 0 15px 10px #777;
+      box-shadow: 0 15px 10px #777;
+      -webkit-transform: rotate(-3deg);
+      -moz-transform: rotate(-3deg);
+      -o-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+      transform: rotate(-3deg);
+  }
+
+  .card::after {
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+  }
+
+  .card-heading {
+    color: #0db2ff;
+    font-weight: 600;
+  }
+
+  .bullets {
+    margin: 0;
+    padding: 0;
+    color: #000000 !important;
+    list-style-type: none;
+  }
+
+  .bullets-text {
+    color: #000000;
+    font-size: 13px;
+    /* margin-left: -8% !important; */
+  }
+
+
+  /* cardio page */
+
+  .cardio-speech {
+    margin-top: 10%;
+  }
+
+  .first-aid {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .cardio-link {
+    font-weight: 600;
+    font-size: 40px;
+    color: #000000;
+  }
+
+  .cardio-sub-heading {
+    font-size: 15px;
+  }
+
+  .cadio-sentence {
+    font-size: 15px;
+  }
+
+  .sub-topic {
+    font-weight: 700;
+  }
+
+  .number {
+    margin: 0;
+    padding: 0;
+    color: #000000 !important;
+    list-style-type: none;
+  }
+
+  @media (max-width: 575.99px) {
+    .hero {
+      background: rgba(0, 0, 0, 0.5) url('.//assets/images/senior.jpg');
+      background-blend-mode: darken;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 80vh;
+    }
+  }
