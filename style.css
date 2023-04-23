@@ -47,6 +47,11 @@ body {
     color: #0000ff !important;
     transition: 1.3s;
   }
+
+  .logo {
+    width: 60px;
+    margin-left: 30px;
+  }
   
 .text-logo a{
     color: #000000 !important;
@@ -163,13 +168,14 @@ body {
 
   /* cardio page */
 
-  .cardio-speech {
+  .speech {
     margin-top: 10%;
   }
 
   .first-aid {
     font-size: 40px;
     font-weight: 600;
+    margin-top: 70px;
   }
 
   .cardio-link {
@@ -190,12 +196,27 @@ body {
     font-weight: 700;
   }
 
-  .number {
+  .number{
     margin: 0;
     padding: 0;
     color: #000000 !important;
     list-style-type: none;
   }
+
+
+  /* insulin injection page */
+  .insulin-img {
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .key-points {
+    font-weight: 700;
+  }
+
 
   @media (max-width: 575.99px) {
     .hero {
@@ -204,5 +225,13 @@ body {
       background-repeat: no-repeat;
       background-size: cover;
       height: 80vh;
+    }
+
+    .speech {
+      margin-top: 70px;
+    }
+
+    .first-aid{
+      margin-top: 30%;
     }
   }
